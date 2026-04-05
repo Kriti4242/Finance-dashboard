@@ -226,12 +226,12 @@ function App() {
   };
 
   return (
-    <main class="min-h-screen bg-gradient-to-br from-slate-100 via-violet-50 to-cyan-50 p-4 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 md:p-6">
-      <div class="mx-auto grid max-w-7xl gap-4 lg:grid-cols-[240px_1fr]">
-        <aside class="rounded-3xl border border-white/40 bg-white/80 p-5 shadow-xl backdrop-blur dark:border-slate-700 dark:bg-slate-900/80">
-          <div class="mb-8">
-            <p class="text-xs uppercase tracking-[0.2em] text-violet-500 dark:text-violet-300">Finance</p>
-            <h1 class="mt-2 text-xl font-bold text-lime-600">My Finance Activity</h1>
+    <main className="min-h-screen bg-gradient-to-br from-slate-100 via-violet-50 to-cyan-50 p-4 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 md:p-6">
+      <div className="mx-auto grid max-w-7xl gap-4 lg:grid-cols-[240px_1fr]">
+        <aside className="rounded-3xl border border-white/40 bg-white/80 p-5 shadow-xl backdrop-blur dark:border-slate-700 dark:bg-slate-900/80">
+          <div className="mb-8">
+            <p className="text-xs uppercase tracking-[0.2em] text-violet-500 dark:text-violet-300">Finance</p>
+            <h1 className="mt-2 text-xl font-bold text-lime-600">My Finance Activity</h1>
           </div>
 
           <nav className="space-y-2 text-sm">
