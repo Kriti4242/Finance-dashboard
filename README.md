@@ -1,4 +1,4 @@
-# Finance Dashboard UI (React + Tailwind)
+# Finance Dashboard 
 
 A clean and interactive finance dashboard built for frontend evaluation.
 
@@ -28,7 +28,7 @@ A clean and interactive finance dashboard built for frontend evaluation.
   - Type filter (all/income/expense)
   - Sorting by date, description, category, type, amount
 
-### 3) Basic Role-Based UI (Frontend Simulation)
+### 3) Basic Role-Based UI
 - **Viewer**: can view data only
 - **Admin**: can add and edit transactions
 - Role switcher available in header dropdown
@@ -95,14 +95,3 @@ npm run preview
 ## Notes
 - This project uses mock/static data and does not require a backend.
 - Admin actions are intentionally frontend-only for demonstration.
-
-
-## Extra Help
-- See `RUN_AND_SAVE_GUIDE.md` for troubleshooting npm registry issues and creating a full zip archive of the project for submission.
-- Use `bash save-project.sh` to generate a timestamped zip file of the complete codebase.
-
-
-## Troubleshooting
-- If `npm run dev` says **Missing script: dev**, you are likely in the wrong folder. Run `npm run` and confirm scripts are listed from this project.
-- Use `npm start` as an alternative dev command (same as `npm run dev`).
-- For audit warnings, run `npm audit` and then `npm audit fix`.
